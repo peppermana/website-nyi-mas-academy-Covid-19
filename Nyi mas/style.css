@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+
+.lorem{
+    display: flex;
+    padding: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.box{
+    background-color: black;
+    color: white;
+}
+.agregasi {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    padding: 30px;
+    font-size: 30px;
+    color: firebrick;
+}
+
+.table-data-recap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.table-data-recap table {
+    margin: 0px 70px;
+    font-size: 25px;
+}
+.data-cirebon {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px; 
+    font-size: 25px;
+}
+.ipsum {
+    font-size: 30px;
+}
+tr:nth-child(odd) {
+    background-color: dodgerblue;
+    color: white;
+}
+table, th, td {
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+th {
+    background-color: black;
+    color: white;
+    font-size: 30px;
